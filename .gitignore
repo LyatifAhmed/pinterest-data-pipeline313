@@ -1,2 +1,3 @@
 *.yaml
+key_pair_name.pem
 *.pem
