@@ -40,5 +40,20 @@ I used Databricks to create Notebooks with python & pyspark commands.
 | user_posting_emulation_streaming.py | Python file which runs the process to extract data from an AWS database and create HTTP PUT messages for stream processing. |
 | README.md                          | Text file (markdown format) description of the project.                                                                     |
 
+```.
+├── 0affcdd81315_dag.py
+├── batch_processing_databricks.py
+├── db_creds.yaml
+├── key_pair_name.pem
+├── README.md
+├── stream_processing_databricks.py
+├── user_posting_emulation.py
+└── user_posting_emulation_streaming.py
+```
 
+#### GitHub CLI
+
+```
+gh repo clone LyatifAhmed/pinterest-data-pipeline313
+```
 
